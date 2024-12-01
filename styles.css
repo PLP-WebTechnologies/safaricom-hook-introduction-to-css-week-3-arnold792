@@ -1,0 +1,63 @@
+/* General Body Styling */
+body {
+    background-color: #e8f0fe;
+    font-family: "Arial", sans-serif;
+    margin: 20px;
+}
+
+/* Part 1: CSS Basics */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.highlight {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#special {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+/* Part 2: Inline, Internal, and External CSS */
+p {
+    font-family: Arial, sans-serif;
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* Part 3: Basic Styling Properties - Card Component */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+}
